@@ -1,6 +1,6 @@
 # ts-migrate-example
 
-`ts-migrate-example` is a basic example of usage of the [ts-migrate-server](https://github.com/airbnb/ts-migrate/tree/master/packages/ts-migrate-server) with writing a custom plugin.
+`ts-migrate-example` is a basic example of usage of the [@brightlocaldev/ts-migrate-server](https://github.com/airbnb/ts-migrate/tree/master/packages/@brightlocaldev/ts-migrate-server) with writing a custom plugin.
 
 ### We have examples of the three categories of plugins:
 
@@ -14,7 +14,7 @@ We're using the following input:
 
 ```javascript
 function mult(first, second) {
-    return first * second;
+  return first * second;
 }
 ```
 
@@ -22,7 +22,7 @@ and with a [config of 3 simple plugins](https://github.com/airbnb/ts-migrate/blo
 
 ```typescript
 function tlum(tsrif: number, dnoces: number): number {
-  console.log(`args: ${arguments}`)
+  console.log(`args: ${arguments}`);
   return tsrif * dnoces;
 }
 ```

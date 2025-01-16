@@ -22,7 +22,7 @@ import {
   tsIgnorePlugin,
   Plugin,
 } from 'ts-migrate-plugins';
-import { migrate, MigrateConfig } from 'ts-migrate-server';
+import { migrate, MigrateConfig } from '@brightlocaldev/ts-migrate-server';
 import init from './commands/init';
 import rename from './commands/rename';
 

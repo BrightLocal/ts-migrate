@@ -66,7 +66,7 @@
     "json5": "^2.1.1",
     "json5-writer": "^0.1.8",
     "ts-migrate-plugins": "^0.1.35",
-    "ts-migrate-server": "^0.1.33",
+    "@brightlocaldev/ts-migrate-server": "^0.1.33",
     "updatable-log": "^0.2.0",
     "yargs": "^15.0.2"
   },
