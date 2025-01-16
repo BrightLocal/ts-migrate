@@ -1,6 +1,6 @@
 {
   "name": "@brightlocaldev/ts-migrate-plugins",
-  "version": "0.1.36",
+  "version": "0.1.37",
   "description": "Set of codemods, which are doing transformation of js/jsx to ts/tsx",
   "main": "build/src/index.js",
   "directories": {
@@ -59,10 +59,10 @@
   "homepage": "https://github.com/airbnb/ts-migrate#readme",
   "license": "MIT",
   "dependencies": {
+    "@brightlocaldev/ts-migrate-server": "^0.1.33",
     "eslint": "^7.14.0",
     "jscodeshift": "^0.13.0",
-    "json-schema": "^0.4.0",
-    "@brightlocaldev/ts-migrate-server": "^0.1.33"
+    "json-schema": "^0.4.0"
   },
   "gitHead": "7acf6067f15c9bb367cda9c47fcfb4203dcc54f3",
   "devDependencies": {
