@@ -21,7 +21,7 @@ import {
   stripTSIgnorePlugin,
   tsIgnorePlugin,
   Plugin,
-} from 'ts-migrate-plugins';
+} from '@brightlocaldev/ts-migrate-plugins';
 import { migrate, MigrateConfig } from '@brightlocaldev/ts-migrate-server';
 import init from './commands/init';
 import rename from './commands/rename';

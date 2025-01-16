@@ -1,6 +1,6 @@
 import path from 'path';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { tsIgnorePlugin, eslintFixPlugin, explicitAnyPlugin } from 'ts-migrate-plugins';
+import { tsIgnorePlugin, eslintFixPlugin, explicitAnyPlugin } from '@brightlocaldev/ts-migrate-plugins';
 import { migrate, MigrateConfig } from '@brightlocaldev/ts-migrate-server';
 import { createDir, copyDir, deleteDir, getDirData } from '../../test-utils';
 

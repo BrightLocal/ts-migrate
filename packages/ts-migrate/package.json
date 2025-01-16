@@ -66,7 +66,7 @@
     "create-jest-runner": "^0.5.3",
     "json5": "^2.1.1",
     "json5-writer": "^0.1.8",
-    "ts-migrate-plugins": "^0.1.35",
+    "@brightlocaldev/ts-migrate-plugins": "^0.1.38",
     "updatable-log": "^0.2.0",
     "yargs": "^15.0.2"
   },

@@ -10,7 +10,7 @@
   "dependencies": {
     "@brightlocaldev/ts-migrate-server": "^0.1.38",
     "jscodeshift": "^0.12.0",
-    "ts-migrate-plugins": "^0.1.35",
+    "@brightlocaldev/ts-migrate-plugins": "^0.1.38",
     "ts-node": "^8.3.0",
     "typescript": "4.7.2"
   }
