@@ -1,6 +1,6 @@
 {
   "name": "@brightlocaldev/ts-migrate",
-  "version": "0.1.38",
+  "version": "0.1.39",
   "description": "A tool for migrating frontend application from JavaScript to TypeScript",
   "directories": {
     "test": "tests"
@@ -62,11 +62,11 @@
   "homepage": "https://github.com/airbnb/ts-migrate#readme",
   "license": "MIT",
   "dependencies": {
+    "@brightlocaldev/ts-migrate-plugins": "^0.1.38",
     "@brightlocaldev/ts-migrate-server": "^0.1.38",
     "create-jest-runner": "^0.5.3",
     "json5": "^2.1.1",
     "json5-writer": "^0.1.8",
-    "@brightlocaldev/ts-migrate-plugins": "^0.1.38",
     "updatable-log": "^0.2.0",
     "yargs": "^15.0.2"
   },
