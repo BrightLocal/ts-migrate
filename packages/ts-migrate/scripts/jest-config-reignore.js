@@ -1,5 +1,5 @@
 const path = require('path');
-
+//
 module.exports = {
   rootDir: path.resolve(__dirname, '../../..'),
   runner: path.resolve(__dirname, '../runner/reignore/index.js'),
