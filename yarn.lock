@@ -9147,6 +9147,25 @@ ts-jest@^26.3.0:
     semver "7.x"
     yargs-parser "20.x"
 
+ts-migrate-plugins@^0.1.35:
+  version "0.1.35"
+  resolved "https://registry.npmjs.org/ts-migrate-plugins/-/ts-migrate-plugins-0.1.35.tgz#96579e07ba8ffa31ff85dfbdd0220482e641f654"
+  integrity sha512-DUkx7ClKhxKYPWDha9DJTZ6LhwEUszL90uH5I/O11K/6TbA96ytln1O3HL6Pt83i4mAKOlg0mQ6AMsPtL5FFkQ==
+  dependencies:
+    eslint "^7.14.0"
+    jscodeshift "^0.13.0"
+    json-schema "^0.4.0"
+    ts-migrate-server "^0.1.33"
+
+ts-migrate-server@^0.1.33:
+  version "0.1.33"
+  resolved "https://registry.npmjs.org/ts-migrate-server/-/ts-migrate-server-0.1.33.tgz#7fc38ac9ce6642399dbfbcb8e46a26e45caea8c4"
+  integrity sha512-MYHy10yzL2fkb2FHFQ9f54gqc5KkaVthTjtpwS4bTroYCONDelp1hbz5nxKWaP3q2oc3kBVeGuAR91RNI+yK+g==
+  dependencies:
+    "@ts-morph/bootstrap" "^0.16.0"
+    pretty-ms "^7.0.1"
+    updatable-log "^0.2.0"
+
 ts-node@^8.3.0:
   version "8.10.2"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.10.2.tgz#eee03764633b1234ddd37f8db9ec10b75ec7fb8d"
