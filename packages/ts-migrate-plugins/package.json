@@ -1,5 +1,5 @@
 {
-  "name": "ts-migrate-plugins",
+  "name": "@brightlocaldev/ts-migrate-plugins",
   "version": "0.1.35",
   "description": "Set of codemods, which are doing transformation of js/jsx to ts/tsx",
   "main": "build/src/index.js",
