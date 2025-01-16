@@ -1,5 +1,5 @@
 import { ESLint } from 'eslint';
-import { Plugin } from 'ts-migrate-server';
+import { Plugin } from '@brightlocaldev/ts-migrate-server';
 
 const cli = new ESLint({
   fix: true,

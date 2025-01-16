@@ -15,14 +15,14 @@ import {
   memberAccessibilityPlugin,
   reactClassLifecycleMethodsPlugin,
   reactClassStatePlugin,
-  reactDefaultPropsPlugin,
+  // reactDefaultPropsPlugin,
   reactPropsPlugin,
   reactShapePlugin,
   stripTSIgnorePlugin,
   tsIgnorePlugin,
   Plugin,
-} from 'ts-migrate-plugins';
-import { migrate, MigrateConfig } from 'ts-migrate-server';
+} from '@brightlocaldev/ts-migrate-plugins';
+import { migrate, MigrateConfig } from '@brightlocaldev/ts-migrate-server';
 import init from './commands/init';
 import rename from './commands/rename';
 
@@ -36,7 +36,7 @@ const availablePlugins = [
   memberAccessibilityPlugin,
   reactClassLifecycleMethodsPlugin,
   reactClassStatePlugin,
-  reactDefaultPropsPlugin,
+  // reactDefaultPropsPlugin,
   reactPropsPlugin,
   reactShapePlugin,
   stripTSIgnorePlugin,
@@ -148,7 +148,7 @@ yargs
           });
         }
       } else {
-        const useDefaultPropsHelper = args.useDefaultPropsHelper === 'true';
+        // const useDefaultPropsHelper = args.useDefaultPropsHelper === 'true';
 
         const { defaultAccessibility, privateRegex, protectedRegex, publicRegex } = args;
 
@@ -162,9 +162,9 @@ yargs
           })
           .addPlugin(reactClassStatePlugin, { anyAlias })
           .addPlugin(reactClassLifecycleMethodsPlugin, { force: true })
-          .addPlugin(reactDefaultPropsPlugin, {
-            useDefaultPropsHelper,
-          })
+          // .addPlugin(reactDefaultPropsPlugin, {
+            // useDefaultPropsHelper,
+          // })
           .addPlugin(reactShapePlugin, {
             anyAlias,
             anyFunctionAlias,

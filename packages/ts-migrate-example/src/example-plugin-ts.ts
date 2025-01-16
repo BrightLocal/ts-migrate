@@ -1,6 +1,6 @@
 import ts from 'typescript';
-import { Plugin } from 'ts-migrate-server';
-import { updateSourceText, SourceTextUpdate } from 'ts-migrate-plugins';
+import { Plugin } from '@brightlocaldev/ts-migrate-server';
+import { updateSourceText, SourceTextUpdate } from '@brightlocaldev/ts-migrate-plugins';
 
 type Options = { shouldReplaceText?: boolean };
 
