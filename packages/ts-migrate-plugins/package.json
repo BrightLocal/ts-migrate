@@ -1,6 +1,6 @@
 {
   "name": "@brightlocaldev/ts-migrate-plugins",
-  "version": "0.1.38",
+  "version": "0.1.40",
   "description": "Set of codemods, which are doing transformation of js/jsx to ts/tsx",
   "main": "build/src/index.js",
   "directories": {
@@ -59,7 +59,7 @@
   "homepage": "https://github.com/brightlocal/ts-migrate#readme",
   "license": "MIT",
   "dependencies": {
-    "@brightlocaldev/ts-migrate-server": "^0.1.38",
+    "@brightlocaldev/ts-migrate-server": "^0.1.40",
     "eslint": "^7.14.0",
     "jscodeshift": "^0.13.0",
     "json-schema": "^0.4.0",
